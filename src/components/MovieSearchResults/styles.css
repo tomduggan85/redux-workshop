@@ -1,0 +1,17 @@
+.movie-search-results {
+  padding: 5px;
+}
+
+.movie-search-results img {
+  width: 200px;
+  height: 300px;
+  margin: 2px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.movie-search-results img:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
