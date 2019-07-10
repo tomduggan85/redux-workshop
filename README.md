@@ -1,12 +1,11 @@
 
-Starting point for Redux workshop: TMDB Movie search engine.
+# Starting point for Redux workshop
+A movie search engine, powered by the TMDB API.
+Presentation slides are [here](https://docs.google.com/presentation/d/1i26k1JoW8XtykfLx5qIdpZGjLTIGwj_Gcvp_ssqbwOs/edit?usp=sharing)
 
-Slides here:
-https://docs.google.com/presentation/d/1i26k1JoW8XtykfLx5qIdpZGjLTIGwj_Gcvp_ssqbwOs/edit?usp=sharing
+# Installation instructions
 
-```
-git clone https://github.com/tomduggan85/redux-workshop.git
-cd redux-workshop
-npm i
-npm start
-```
+1) `git clone https://github.com/tomduggan85/redux-workshop.git`
+2) `cd redux-workshop`
+3) `npm i`
+4) `npm start`
