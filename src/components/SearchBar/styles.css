@@ -13,6 +13,17 @@
   font-size: 30px;
 }
 
+.search-bar .search-bar-logo:before {
+  background: url(https://gazaskygeeks.com/wp-content/uploads/2018/08/gsg-website-logo-colored-280-50.png);
+  content: '';
+  width: 42px;
+  height: 34px;
+  background-size: cover;
+  margin-right: 7px;
+  display: block;
+  float: left;
+}
+
 .search-bar .clear-search-button {
   cursor: pointer;
   display: inline-block;
