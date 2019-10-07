@@ -8,7 +8,13 @@ const MOVIE_SEARCH_URL = 'https://api.themoviedb.org/3/search/movie?api_key=6e10
   {
     data: {
       results: [
-        { poster_path: "", backdrop_path: "", original_title: "", overview: ""  },
+        {
+          id: "",
+          poster_path: "",
+          backdrop_path: "",
+          original_title: "",
+          overview: "",
+        },
       ]
     }
   }
