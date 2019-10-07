@@ -7,11 +7,9 @@ const MOVIE_SEARCH_URL = 'https://api.themoviedb.org/3/search/movie?api_key=6e10
 /* The schema of the movie search response looks like this:
   {
     data: {
-      results: {
-        movies: [
-          { poster_path: "", backdrop_path: "", original_title: "", overview: ""  },
-        ]
-      }
+      results: [
+        { poster_path: "", backdrop_path: "", original_title: "", overview: ""  },
+      ]
     }
   }
 */
