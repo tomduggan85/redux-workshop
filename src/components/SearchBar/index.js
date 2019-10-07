@@ -8,7 +8,8 @@ class SearchBar extends React.Component {
     /* TODO: call action dispatcher to update the current search term */
   }
 
-  onSubmit = () => {
+  onSubmit = ( e ) => {
+    e.preventDefault()
     /* TODO: call action dispatcher to query TMDB endpoint */
   }
 
