@@ -3,9 +3,9 @@ import './styles.css'
 
 class SearchBar extends React.Component {
 
-  onChangeSearchText = ( e ) => {
-    const searchString = e.target.value
-    /* TODO: call action dispatcher to update the current search string */
+  onChangeSearchTerm = ( e ) => {
+    const searchTerm = e.target.value
+    /* TODO: call action dispatcher to update the current search term */
   }
 
   onSubmit = () => {
@@ -13,18 +13,18 @@ class SearchBar extends React.Component {
   }
 
   onClickClearButton = () => {
-    /* TODO: call action dispatcher to clear the current search string */
+    /* TODO: call action dispatcher to clear the current search term */
   }
 
   render() {
 
-    /* TODO: Connect to redux and display the current search string */
+    /* TODO: Connect to redux and display the current search term */
 
     return (
       <div className='search-bar'>
         <span className='search-bar-logo' role='img' aria-label='camera'>🎥</span>
         <form onSubmit={this.onSubmit}>
-          <input type='text' placeholder='Search for a movie' onChange={this.onChangeSearchText}/>
+          <input type='text' placeholder='Search for a movie' onChange={this.onChangeSearchTerm}/>
           <div className='clear-search-button' onClick={this.onClickClearButton}>
             <span role='img' aria-label='clear'>✖️</span>
           </div>
