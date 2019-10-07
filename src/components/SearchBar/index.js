@@ -24,8 +24,8 @@ class SearchBar extends React.Component {
       <div className='search-bar'>
         <span className='search-bar-logo' role='img' aria-label='camera'>🎥</span>
         <form onSubmit={this.onSubmit}>
-          <input type='text' placeholder='Search for a movie' />
-          <div className='clear-search-button'>
+          <input type='text' placeholder='Search for a movie' onChange={this.onChangeSearchText}/>
+          <div className='clear-search-button' onClick={this.onClickClearButton}>
             <span role='img' aria-label='clear'>✖️</span>
           </div>
         </form>
