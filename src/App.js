@@ -8,7 +8,7 @@ import SearchBar from './components/SearchBar'
 import MovieSearchResults from './components/MovieSearchResults'
 import './App.css'
 import {
-  MemoryRouter as Router, /* Use MemoryRouter so that the routes are not exposed in the browser url bar (which prevents users from directly visiting /:movieIndex) */
+  MemoryRouter as Router, /* Use MemoryRouter so that the routes are not shown in the browser url bar (we want to prevent users from directly visiting /:movieIndex) */
   Switch,
   Route
 } from 'react-router-dom'
