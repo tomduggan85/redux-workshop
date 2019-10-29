@@ -6,7 +6,7 @@ const MOVIE_POSTER_URL_PREFIX = 'https://image.tmdb.org/t/p/w780' /* Prepend thi
 
 const MovieDetailsPage = () => {
   
-  /* TODO: Connect to redux and display movie details based on this.props.match.params.moveIndex */
+  /* TODO: Connect to redux and display movie details based on this.props.match.params.movieIndex */
 
   return (
     <div className='movie-details'>
