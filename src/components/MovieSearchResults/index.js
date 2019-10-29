@@ -5,7 +5,7 @@ const MOVIE_POSTER_URL_PREFIX = 'https://image.tmdb.org/t/p/w342' /* Prepend thi
 
 const MovieSearchResults = () => {
   
-  /* TODO: Connect to Redux and display movie results */
+  /* TODO: Connect to Redux and display an <img /> tag for each movie */
 
   return (
     <div className='movie-search-results'>
